@@ -1,0 +1,35 @@
+.logo
+    height: 20%
+    border-radius: 50%
+    +below(740px)
+        display: none
+        height: 10%
+.title
+    color: white
+    font-weight: normal
+    text-align: center
+    font-size: 2em
+    +below(740px)
+        font-size: 1.25em
+    +below(320px)
+        font-size: 1em
+.iphone
+    height: auto
+    width: 50%
+    float: left
+    +below(740px)
+        width: 100%
+        text-align: center
+        margin-bottom: 10px
+.download-container
+    width: 100%
+    margin-top: 25%
+    .appstore-icon
+        width: 300px 
+        border-radius: 5px
+        +below(740px)
+            width: 200px
+        +below(320px)
+            width: 150px
+    +below(740px)
+        text-align: center
