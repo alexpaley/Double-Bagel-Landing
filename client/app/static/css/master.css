@@ -206,6 +206,14 @@ body .container {
     text-align: center;
   }
 }
+.first {
+  margin-top: 0 !important;
+  margin-left: 0 !important;
+}
+.last {
+  margin-bottom: 0 !important;
+  margin-right: 0 !important;
+}
 .logo {
   height: 20%;
   border-radius: 50%;
@@ -232,38 +240,64 @@ body .container {
     font-size: 1em;
   }
 }
-.iphone {
-  height: auto;
+.phone-container {
   width: 50%;
   float: left;
 }
+.phone-container .iphone {
+  height: auto;
+  width: 100%;
+}
 @media only screen and (max-width: 740px) {
-  .iphone {
+  .phone-container {
     width: 100%;
     text-align: center;
     margin-bottom: 10px;
   }
 }
-.download-container {
-  width: 100%;
+.download-social-container {
+  width: 50%;
+  float: left;
   margin-top: 25%;
 }
-.download-container .appstore-icon {
+.download-social-container .download-container {
+  width: 100%;
+  text-align: center;
+}
+.download-social-container .download-container .appstore-icon {
   width: 300px;
   border-radius: 5px;
 }
 @media only screen and (max-width: 740px) {
-  .download-container .appstore-icon {
+  .download-social-container .download-container .appstore-icon {
     width: 200px;
   }
 }
 @media only screen and (max-width: 320px) {
-  .download-container .appstore-icon {
+  .download-social-container .download-container .appstore-icon {
     width: 150px;
   }
 }
+.download-social-container .social-icon-container {
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+}
+.download-social-container .social-icon-container .social-icon {
+  display: inline-block;
+  font-size: 3em !important;
+  color: #fff;
+  margin-right: 30px;
+}
+@media only screen and (max-width: 320px) {
+  .download-social-container .social-icon-container .social-icon {
+    font-size: 2.5em !important;
+  }
+}
 @media only screen and (max-width: 740px) {
-  .download-container {
+  .download-social-container {
+    width: 100%;
+    margin-top: 0;
     text-align: center;
   }
 }

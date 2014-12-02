@@ -12,7 +12,14 @@ html
         .container
             h3.title Find tennis partners around you.
             //img.logo(src="./client/app/static/img/logo.png")
-            img.iphone(src="./client/app/static/img/iphone_mockup.png")
-            .download-container
-                a(href='https://itunes.apple.com/us/app/double-bagel/id895778482', target="_blank")
-                    img.appstore-icon(src="./client/app/static/img/app-store-4.png")
+            .phone-container
+                img.iphone(src="./client/app/static/img/iphone_mockup.png")
+            .download-social-container
+                .download-container
+                    a(href="https://itunes.apple.com/us/app/double-bagel/id895778482", target="_blank")
+                        img.appstore-icon(src="./client/app/static/img/app-store-4.png")
+                .social-icon-container
+                    a(href="https://www.facebook.com/doublebageltennis", target="_blank")
+                        i.fa.fa-facebook-square.social-icon
+                    a(href="https://www.google.com/+DoublebagelCoTennis", target="_blank")
+                        i.fa.fa-google-plus-square.social-icon.last
